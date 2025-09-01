@@ -1,0 +1,28 @@
+{
+  "name": "toshi-web-app",
+  "version": "1.0.0",
+  "description": "Professional web application for Stopper Tech services",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-deps": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "web-app"
+  ],
+  "author": "Stopper Tech",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "mongodb": "^6.19.0"
+  }
+}
