@@ -24,7 +24,7 @@ const Navbar = () => {
     if (mobileMenuOpen) {
       toggleMobileMenu();
     }
-  }, [location]);
+  }, [location, mobileMenuOpen, toggleMobileMenu]);
 
   const navLinks = [
     { name: 'Home', path: '/' },

@@ -78,28 +78,36 @@ const Footer = () => {
               {/* Social Links */}
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://facebook.com/toshiservices"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors duration-200"
                   aria-label="Facebook"
                 >
                   <FaFacebook size={18} />
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com/toshiservices"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors duration-200"
                   aria-label="Twitter"
                 >
                   <FaTwitter size={18} />
                 </a>
                 <a
-                  href="#"
+                  href="https://linkedin.com/company/toshiservices"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors duration-200"
                   aria-label="LinkedIn"
                 >
                   <FaLinkedin size={18} />
                 </a>
                 <a
-                  href="#"
+                  href="https://instagram.com/toshiservices"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors duration-200"
                   aria-label="Instagram"
                 >

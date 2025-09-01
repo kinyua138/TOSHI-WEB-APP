@@ -266,7 +266,7 @@ export const AppProvider = ({ children }) => {
   useEffect(() => {
     actions.fetchServices();
     actions.fetchStats();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Apply theme to document
   useEffect(() => {

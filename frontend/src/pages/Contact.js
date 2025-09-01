@@ -9,7 +9,6 @@ import {
   FaMapMarkerAlt,
   FaWhatsapp,
   FaClock,
-  FaGlobe,
   FaPaperPlane,
   FaCheckCircle,
   FaSpinner
@@ -32,7 +31,6 @@ const Contact = () => {
     watch
   } = useForm();
 
-  const watchedService = watch('service');
 
   const contactInfo = [
     {

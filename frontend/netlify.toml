@@ -5,6 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
   NPM_VERSION = "9"
+  CI = "false"
 
 [[redirects]]
   from = "/*"
@@ -27,7 +28,9 @@
 [context.production.environment]
   REACT_APP_API_URL = "https://toshi-web-app.onrender.com/api"
   REACT_APP_WHATSAPP_PHONE = "+254713159136"
+  CI = "false"
 
 [context.deploy-preview.environment]
   REACT_APP_API_URL = "https://toshi-web-app.onrender.com/api"
   REACT_APP_WHATSAPP_PHONE = "+254713159136"
+  CI = "false"

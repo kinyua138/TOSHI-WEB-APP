@@ -19,7 +19,6 @@ const WhatsAppFloat = () => {
     }
 
     const service = selectedService || 'General Inquiry';
-    const fullMessage = message.trim() || `Hi! I'm interested in your ${service} service.`;
 
     try {
       await quickWhatsAppContact(name, service);
