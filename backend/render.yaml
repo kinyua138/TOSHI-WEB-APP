@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: toshi-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
+      - key: NOTIFICATION_EMAIL
+        value: info@toshiservices.com
+      - key: FRONTEND_URL
+        sync: false
+      - key: WHATSAPP_PHONE
+        value: +254713159136
